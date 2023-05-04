@@ -1,0 +1,146 @@
+/*
+ цвет logo WEB  color: #4D5AE5;
+ цвет logo STUDIO color: #2E2F42;
+ цвет header nav color: #2E2F42; 
+ цвет headrer adress color: #434455;
+ цвет h1 hero color: #FFFFFF;
+ 
+
+ цвет background button hero background: #4D5AE5;
+ цвет текста в кнопке hero button color: #FFFFFF;
+ 
+ цвет section2 h2 color: #2E2F42;
+ цвет section2 p color:  #434455;
+ 
+ цвет всех заголовков h2 color: #2E2F42;
+
+ цвет заголовка h3 section4 color: #2E2F42;
+
+ цвет текста footer p color: #F4F4FD;
+
+
+ ЦВЕТ ВСЕХ ЗАГОЛОВКОВ   #2E2F42;
+ ЦВЕТ P                 #434455;
+ ЦВЕТ LOGO WEB SUTDIO    #4D5AE5 + #2E2F42;
+ ЦВЕТ H1                 #FFFFFF;
+ ЦВЕТ КНОПКИ HERO BUTTON #FFFFFF;
+ ЦВЕТ FOOTER>P           #F4F4FD;
+
+
+
+ main background background: #E5E5E5;
+ backgrond SECTION4 background: #F4F4FD;
+ --------------------------------------------
+
+ основной шрифт Roboto
+ лого шрифт Raleway
+ */
+
+:root {
+  --title-text-color: #2e2f42;
+  --paragraph-text-color: #434455;
+
+  --logo-first-word-color: #4d5ae5;
+  --logo-second-word-color: #2e2f42;
+
+  --hero-word-main-h-color: #ffffff;
+  --hero-button-text-color: #ffffff;
+  --hero-button-background-color: #4d5ae5;
+
+  --footer-paragraph-text-color: #f4f4fd;
+
+  --main-background-color: #ffffff;
+  --s4-background-color: #f4f4fd;
+  --hero-background-color: #2e2f42;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: var(--main-background-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+.logo-studio {
+  color: var(--logo-second-word-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.logo-web {
+  color: var(--logo-first-word-color);
+}
+
+/* Nav */
+.nav {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Address */
+.address {
+  color: var(--paragraph-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* hero */
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero h1 {
+  color: var(--hero-word-main-h-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.hero button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--hero-button-text-color);
+  background-color: var(--hero-button-background-color);
+}
+/* section titles */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section p {
+  color: var(--paragraph-text-color);
+}
+
+/* background section 3 */
+.our-team {
+  background-color: var(--s4-background-color);
+}
+
+.footer {
+  background-color: var(--hero-background-color);
+}
+.footer p {
+  color: var(--footer-paragraph-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo-studio-footer {
+  color: var(--footer-paragraph-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.logo-web {
+  color: var(--logo-first-word-color);
+}
