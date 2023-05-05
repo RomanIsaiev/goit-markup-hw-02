@@ -112,23 +112,27 @@ body {
 }
 
 /* Address */
-.address a {
+.address {
   color: var(--paragraph-text-color);
 
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+
   text-decoration: none;
   font-style: normal;
 }
 
-.address a:hover,
-.address a:focus {
+.address:hover,
+.address:focus {
   color: var(--acctent-hover-color);
 }
 
 /* hero */
 .hero {
   background-color: var(--hero-background-color);
+
+  letter-spacing: 0.02em;
 }
 .hero-h1 {
   color: var(--hero-word-main-h-color);
@@ -139,7 +143,7 @@ body {
 
   text-align: center;
 }
-.hero button {
+.hero-button {
   color: var(--hero-button-text-color);
   background-color: var(--hero-button-background-color);
 
@@ -168,7 +172,19 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+/* title h2 */
+.section-h2 {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .section-h3 {
+  color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -180,17 +196,16 @@ body {
   line-height: 1.5;
 }
 
-/* hidden sections */
-
-.section-hidden {
-  overflow: hidden;
-}
-
 /* background section 3 */
 .our-team {
   background-color: var(--light-mode-background-color);
 }
 
+/* background section 4 */
+.team {
+  background-color: var(--main-background-color);
+}
+/* footer */
 .footer {
   background-color: var(--hero-background-color);
 }
@@ -201,13 +216,8 @@ body {
   line-height: 1.5;
 }
 
-/* background img section 4 */
-.team {
-  background-color: var(--main-background-color);
-}
-
 .logo-studio-footer {
-  color: var(--footer-paragraph-text-color);
+  color: var(--logo-first-word-color);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -219,7 +229,7 @@ body {
   text-decoration: none;
 }
 .logo-web {
-  color: var(--logo-first-word-color);
+  color: var(--footer-paragraph-text-color);
 }
 
 /* portfolio.html */
