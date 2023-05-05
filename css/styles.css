@@ -62,8 +62,8 @@
 }
 
 body {
+  color: var(--paragraph-text-color);
   background-color: var(--main-background-color);
-  color: var(--title-text-color);
 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
@@ -71,20 +71,31 @@ body {
 
 /* Logo */
 .logo-studio {
-  color: var(--logo-second-word-color);
+  color: var(--logo-first-word-color);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 
-  text-decoration: none;
+  text-transform: uppercase;
 }
-.logo-web {
-  color: var(--logo-first-word-color);
+.logo-studio .logo-web {
+  color: var(--logo-second-word-color);
+}
+
+.list {
+  list-style: none;
 }
 
 /* Nav */
+
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+
 .nav a {
   color: var(--title-text-color);
 
@@ -117,12 +128,14 @@ body {
 .hero {
   background-color: var(--hero-background-color);
 }
-.hero h1 {
+.hero-h1 {
   color: var(--hero-word-main-h-color);
 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+
+  text-align: center;
 }
 .hero button {
   color: var(--hero-button-text-color);
@@ -132,7 +145,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -148,14 +161,27 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  text-transform: capitalize;
+  text-align: center;
 }
-.section h3 {
+.section-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.section p {
+.section-p {
   color: var(--paragraph-text-color);
+
+  line-height: 1.5;
+}
+
+/* hidden sections */
+
+.section-hidden {
+  overflow: hidden;
 }
 
 /* background section 3 */
@@ -173,14 +199,21 @@ body {
   line-height: 1.5;
 }
 
+/* background img section 4 */
+.team {
+  background-color: var(--main-background-color);
+}
+
 .logo-studio-footer {
   color: var(--footer-paragraph-text-color);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 
+  text-transform: uppercase;
   text-decoration: none;
 }
 .logo-web {
@@ -197,6 +230,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 
   cursor: pointer;
 }
