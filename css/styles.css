@@ -50,7 +50,7 @@
   --footer-paragraph-text-color: #f4f4fd;
 
   --main-background-color: #ffffff;
-  --s4-background-color: #f4f4fd;
+  --light-mode-background-color: #f4f4fd;
   --hero-background-color: #2e2f42;
 
   --filter-button-color: #4d5ae5;
@@ -62,18 +62,22 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--title-text-color);
   background-color: var(--main-background-color);
+  color: var(--title-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
 }
 
 /* Logo */
 .logo-studio {
   color: var(--logo-second-word-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+
   text-decoration: none;
 }
 .logo-web {
@@ -82,10 +86,12 @@ body {
 
 /* Nav */
 .nav a {
-  font-weight: 500;
   color: var(--title-text-color);
+
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+
   text-decoration: none;
 }
 .nav a:hover,
@@ -96,6 +102,7 @@ body {
 /* Address */
 .address a {
   color: var(--paragraph-text-color);
+
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -112,17 +119,20 @@ body {
 }
 .hero h1 {
   color: var(--hero-word-main-h-color);
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 }
 .hero button {
-  font-family: 'Roboto';
+  color: var(--hero-button-text-color);
+  background-color: var(--hero-button-background-color);
+
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--hero-button-text-color);
-  background-color: var(--hero-button-background-color);
+
   cursor: pointer;
 }
 
@@ -134,6 +144,7 @@ body {
 /* section titles */
 .section-title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -149,7 +160,7 @@ body {
 
 /* background section 3 */
 .our-team {
-  background-color: var(--s4-background-color);
+  background-color: var(--light-mode-background-color);
 }
 
 .footer {
@@ -157,16 +168,19 @@ body {
 }
 .footer p {
   color: var(--footer-paragraph-text-color);
+
   font-size: 16px;
   line-height: 1.5;
 }
 
 .logo-studio-footer {
   color: var(--footer-paragraph-text-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+
   text-decoration: none;
 }
 .logo-web {
@@ -176,12 +190,14 @@ body {
 /* portfolio.html */
 /* buttons */
 .buttons button {
-  font-family: 'Roboto';
   color: var(--filter-button-color);
   background-color: var(--filter-button-background-color);
+
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+
   cursor: pointer;
 }
 
