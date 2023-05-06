@@ -134,7 +134,7 @@ body {
 
   letter-spacing: 0.02em;
 }
-.hero-h1 {
+.hero-main-h {
   color: var(--hero-word-main-h-color);
 
   font-weight: 700;
@@ -174,7 +174,7 @@ body {
   text-align: center;
 }
 /* title h2 */
-.section-h2 {
+.section-hh {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -183,7 +183,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-h3 {
+.section-title-hhh {
   color: var(--title-text-color);
 
   font-weight: 500;
